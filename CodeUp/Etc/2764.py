@@ -9,9 +9,9 @@ for i in range(len(str) * 2 + 1):
 
 for i in range(len(str) * 2 + 1):
     if i % 2 == 0:
-        print("+", end="")
+        print("+", end=" ")
     else:
-        print("-", end="")
+        print("-", end=" ")
 
 print("\n" + "".join(re_str))
 
